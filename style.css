@@ -1,0 +1,5 @@
+@import "tailwindcss";
+/* npm i -y */
+/* then tailwind link copy and past  */
+
+/* npx @tailwindcss/cli -i ./style.css -o ./output.css --watch */
