@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Filters-in-Tailwind</title>
+</head>
+<body>
+    <h1 class="text-4xl text-amber-600"> Content for Filters-in-Tailwind </h1>
+    <div class="container mx-auto mt-8">
+        <img src="ocean.jpg" alt="Ocean" class="filter grayscale hover:filter-none transition duration-500">
+</div>
+  <div class="container mx-auto mt-8">
+        <img src="ocean.jpg" alt="Ocean" class="blur-sm hover:blur-none duration-200">
+</div>
+<div class="container mx-auto mt-8">
+        <img src="ocean.jpg" alt="Ocean" class="brightness-50 hover:brightness-100 transition duration-800">
+</div>
+
+<div>
+    <h1 class="text-5xl ">Contrast</h1>
+    <div class=" container m-7">
+        <img src="ocean.jpg" alt="" class="contrast-0">
+                <img src="ocean.jpg" alt="" class="contrast-50">
+        <img src="ocean.jpg" alt="" class="contrast-100">
+        <img src="ocean.jpg" alt="" class="contrast-150">
+        <img src="ocean.jpg" alt="" class="contrast-200">
+        <img src="ocean.jpg" alt="" class="contrast-250">
+        <img src="ocean.jpg" alt="" class="contrast-300">
+
+    </div>
+</div>
+<div>
+    <h1 class="text-5xl ">grayscale</h1>
+    <div class=" container m-7">
+        <img src="ocean.jpg" alt="" class="grayscale-0">
+                <img src="ocean.jpg" alt="" class="grayscale-50">
+        <img src="ocean.jpg" alt="" class="grayscale-100">
+        <img src="ocean.jpg" alt="" class="grayscale-150">
+        <img src="ocean.jpg" alt="" class="grayscale-200">
+        <img src="ocean.jpg" alt="" class="grayscale-250">
+        <img src="ocean.jpg" alt="" class="grayscale-300">
+
+    </div>
+</div>
+<div>
+    <h1 class="text-5xl ">Invert</h1>
+    <div class=" container m-7">
+        <img src="ocean.jpg" alt="" class="invert-0">
+                <img src="ocean.jpg" alt="" class="invert-50">
+        <img src="ocean.jpg" alt="" class="invert-100">
+        <img src="ocean.jpg" alt="" class="invert-150">
+        <img src="ocean.jpg" alt="" class="invert-200">
+        <img src="ocean.jpg" alt="" class="invert-250">
+        <img src="ocean.jpg" alt="" class="invert-300">
+
+    </div>
+</div>
+    </body>
+</html>
+
+<!-- when we wants disabling the filter on hover we have to go config file then core plugin then we have to enable the filter then only it will work otherwise it will not work -->
+<!-- plugins:[],
+corePlugins:{
+filter:false;
+}
+} -->
