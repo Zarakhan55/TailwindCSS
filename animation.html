@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <title>Tailwind Animations – All in One</title>
+</head>
+
+<body class="bg-gray-100 p-10 space-y-10">
+
+  <h1 class="text-4xl font-bold text-center text-amber-700">
+    Tailwind Animations (Single File)
+  </h1>
+
+  <!-- Bounce -->
+  <div class="flex justify-center">
+    <button class="bg-amber-600 text-white px-6 py-3 rounded-xl animate-bounce">
+      Bounce
+    </button>
+  </div>
+
+  <!-- Pulse -->
+  <div class="flex justify-center">
+    <div class="w-24 h-24 bg-blue-600 rounded-full animate-pulse"></div>
+  </div>
+
+  <!-- Spin -->
+  <div class="flex justify-center">
+    <div class="w-20 h-20 border-4 border-purple-600 border-t-transparent rounded-full animate-spin"></div>
+  </div>
+
+  <!-- Ping -->
+  <div class="flex justify-center">
+    <span class="relative flex h-6 w-6">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-6 w-6 bg-green-600"></span>
+    </span>
+  </div>
+
+  <!-- Hover Scale -->
+  <div class="flex justify-center">
+    <img src="ocean.jpg"
+         class="w-64 rounded-xl
+         hover:scale-110 transition-transform duration-700"
+         alt="Image">
+  </div>
+
+  <!-- Hover Rotate -->
+  <div class="flex justify-center">
+    <button class="bg-purple-600 text-white px-6 py-3 rounded-xl
+      hover:rotate-180 transition-transform duration-700">
+      Rotate
+    </button>
+  </div>
+
+  <!-- Fade In -->
+  <div class="flex justify-center">
+    <div class="bg-teal-600 text-white px-8 py-4 rounded-xl
+         opacity-0 hover:opacity-100 transition duration-700">
+      Hover Me
+    </div>
+  </div>
+
+</body>
+</html>
