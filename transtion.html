@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Transition-Transform</title>
+</head>
+<body class="bg-gray-100">
+
+    <h1 class="bg-amber-600 text-4xl text-amber-50 m-4 p-3 rounded-xl">
+        Transition & Transform
+    </h1>
+
+    <!-- Button 1 (no transition) -->
+    <button class="bg-amber-800 text-amber-50 p-3 m-7 rounded-2xl hover:bg-amber-500">
+        Button-1
+    </button>
+
+    <!-- Button 2 (color transition) -->
+    <button class="bg-amber-600 text-amber-50 p-3 m-7 rounded-2xl
+        hover:bg-blue-500 transition duration-1000">
+        Button-2
+    </button>
+
+    <!-- Button 3 (opacity transition) -->
+    <button class="bg-green-800 text-amber-50 rounded-2xl m-7 p-3
+        hover:opacity-50 transition duration-1000">
+        Button-3
+    </button>
+
+    <!-- Button 4 (rotation) -->
+    <button class="bg-amber-400 text-amber-50 rounded-2xl p-3 m-5
+        hover:rotate-180 transition-transform duration-1000">
+        Button-4
+    </button>
+
+    <!-- Image scale -->
+    <div class="m-7">
+        <img src="ocean.jpg" alt="Ocean"
+             class="p-4 rounded-2xl
+             hover:scale-110 transition-transform duration-700">
+    </div>
+
+</body>
+</html>
